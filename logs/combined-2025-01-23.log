@@ -1,0 +1,47 @@
+[2025-01-23 12:56:34] INFO: Server running on port 3000
+[2025-01-23 12:56:34] INFO: Connected to MongoDB
+[2025-01-23 12:59:47] INFO: Server running on port 3000
+[2025-01-23 12:59:47] INFO: Connected to MongoDB
+[2025-01-23 13:05:09] INFO: Server running on port 3000
+[2025-01-23 13:05:10] INFO: Connected to MongoDB
+[2025-01-23 13:06:05] ERROR: Error occurred: - Invalid token
+Error: Invalid token
+    at authenticate (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/src/middleware/auth.middleware.ts:50:12)
+    at Layer.handle [as handle_request] (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:328:13)
+    at /media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:175:3)
+    at router (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:328:13)
+[2025-01-23 13:06:06] HTTP: ::ffff:127.0.0.1 - - [23/Jan/2025:07:06:06 +0000] "GET /api/users HTTP/1.1" 401 54 "-" "curl/7.81.0"
+[2025-01-23 13:06:56] HTTP: ::ffff:127.0.0.1 - - [23/Jan/2025:07:06:56 +0000] "POST /api/auth/refresh HTTP/1.1" 404 42 "-" "curl/7.81.0"
+[2025-01-23 13:07:10] ERROR: Error occurred: - Email already exists
+Error: Email already exists
+    at Function.register (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/src/services/auth.service.ts:10:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async register (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/src/controllers/auth.controller.ts:10:22)
+[2025-01-23 13:07:10] HTTP: ::ffff:127.0.0.1 - - [23/Jan/2025:07:07:10 +0000] "POST /api/auth/register HTTP/1.1" 400 61 "-" "curl/7.81.0"
+[2025-01-23 13:07:18] HTTP: ::ffff:127.0.0.1 - - [23/Jan/2025:07:07:18 +0000] "POST /api/auth/login HTTP/1.1" 200 604 "-" "curl/7.81.0"
+[2025-01-23 13:07:29] ERROR: Error occurred: - Invalid token
+Error: Invalid token
+    at authenticate (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/src/middleware/auth.middleware.ts:50:12)
+    at Layer.handle [as handle_request] (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:328:13)
+    at /media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:175:3)
+    at router (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:328:13)
+[2025-01-23 13:07:29] HTTP: ::ffff:127.0.0.1 - - [23/Jan/2025:07:07:29 +0000] "GET /api/users HTTP/1.1" 401 54 "-" "curl/7.81.0"
+[2025-01-23 13:08:02] HTTP: ::ffff:127.0.0.1 - - [23/Jan/2025:07:08:02 +0000] "GET /api/users HTTP/1.1" 200 322 "-" "curl/7.81.0"
+[2025-01-23 13:09:06] INFO: Server running on port 3000
+[2025-01-23 13:09:06] INFO: Connected to MongoDB
+[2025-01-23 13:09:24] HTTP: ::ffff:127.0.0.1 - - [23/Jan/2025:07:09:24 +0000] "GET /api/users HTTP/1.1" 200 322 "-" "curl/7.81.0"
+[2025-01-23 13:09:28] HTTP: ::ffff:127.0.0.1 - - [23/Jan/2025:07:09:28 +0000] "GET /api/users HTTP/1.1" 200 322 "-" "curl/7.81.0"
+[2025-01-23 13:11:11] INFO: Server running on port 3000
+[2025-01-23 13:11:11] INFO: Connected to MongoDB

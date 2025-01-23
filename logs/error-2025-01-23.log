@@ -1,0 +1,29 @@
+[2025-01-23 13:06:05] ERROR: Error occurred: - Invalid token
+Error: Invalid token
+    at authenticate (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/src/middleware/auth.middleware.ts:50:12)
+    at Layer.handle [as handle_request] (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:328:13)
+    at /media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:175:3)
+    at router (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:328:13)
+[2025-01-23 13:07:10] ERROR: Error occurred: - Email already exists
+Error: Email already exists
+    at Function.register (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/src/services/auth.service.ts:10:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async register (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/src/controllers/auth.controller.ts:10:22)
+[2025-01-23 13:07:29] ERROR: Error occurred: - Invalid token
+Error: Invalid token
+    at authenticate (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/src/middleware/auth.middleware.ts:50:12)
+    at Layer.handle [as handle_request] (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:328:13)
+    at /media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:175:3)
+    at router (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/jomaddar/New Volume/jomaddar-it/nodejs-ts-boilerplate/node_modules/express/lib/router/index.js:328:13)
